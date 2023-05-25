@@ -29,6 +29,19 @@
       color="#169fc6"
       ><h3 class="white--text">ສົ່ງຂໍ້ຄວາມ</h3></v-btn
     >
+    <div class="mt-12">
+      <center>
+        <strong
+          ><a id="text" href="https://www.facebook.com/ceitsoftware"
+            >CEIT Software</a
+          ></strong
+        >
+        <br  />
+
+        <span> {{ auther }}</span>
+        <b>{{ name }}</b>
+      </center>
+    </div>
   </center>
 </template>
 
@@ -37,6 +50,8 @@ export default {
   layout: 'empty',
   data() {
     return {
+      auther: 'ພັດທະນາໂດຍ: ',
+      name: 'ຄອນປະເສີດ ສຸນາເຄນ',
       code: '+856',
       phoneNumber: null,
       msg: null,

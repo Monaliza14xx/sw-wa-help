@@ -5,18 +5,9 @@
         <Nuxt />
       </v-container>
     </v-main>
-      <v-footer class="d-flex justify-center" :absolute="!fixed" app>
-        <center>
-          <strong
-            ><a id="text" href="https://www.facebook.com/ceitsoftware"
-              >CEIT Software</a
-            ></strong
-          >
-          <br />
-
-          <span> {{ auther }}</span>
-        </center>
-      </v-footer>
+      <!-- <v-footer class="d-flex justify-center" :absolute="!fixed" app>
+      
+      </v-footer> -->
   </v-app>
 </template>
 
@@ -25,7 +16,6 @@ export default {
   name: 'DefaultLayout',
   data() {
     return {
-      auther: 'Develop by:Khonepaserth SOUNAKHEN'.toUpperCase(),
 
       clipped: false,
       drawer: false,
